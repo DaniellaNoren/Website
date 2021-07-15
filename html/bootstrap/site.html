@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <link rel="stylesheet" href="../../node_modules/bootstrap/scss/bootstrap.scss">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Website</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg border">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <img src="../../img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" class="img-fluid" width="200" alt="Black and white cat" >
+        <div class="container">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link2</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link active" href="#">Link3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link4</a>
+            </li>
+        </ul>
+     </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <article class="col"><h2>asd</h2></article>
+                <article class="col"><h2>sd</h2></article>
+                <article class="col"><h2>sdfsdf</h2></article>
+            </div>
+        </div>
+        
+        <div id="pictureCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <!-- <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../../img/20171227_134625.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../../img/ContactPhoto-IMG_20130419_232550.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../../img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" class="d-block w-100" alt="...">
+                </div>
+                <!-- <div class="carousel-item">
+                    <form>
+                        <div class="row">
+                        <label for="inputName" class="form-label col"> Name </label>
+                            <input type="text" id="inputName" class="form-control col">
+                        <label for="inputEmail" class="form-label col"> Email </label>
+                            <input type="email" id="inputEmail" class="form-control col">
+                        </div>
+                        <div class="row">
+                        <label for="inputPhone" class="form-label col"> Phone-number</label>
+                            <input type="tel" id="inputPhone" class="form-control col">
+                            </div>
+                            <div class="row">
+                         <label for="inputMessage" class="form-label col"> Message</label>
+                            <textarea name="inputMessage" id="inputMessage" cols="30" rows="10" class="form-control col"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        <button type="reset" class="btn btn-danger">Clear</button>
+                    </form>
+                </div> -->
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#pictureCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#pictureCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <ul class="nav flex-column col">
+                    <li class="nav-item">
+                        <a class="badge rounded-pill bg-primary">Pill 1</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="badge rounded-pill bg-secondary">Pill 2</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="badge rounded-pill bg-success">Pill 3</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="badge rounded-pill bg-dark">Pill 4</a>
+                    </li>      
+                  </ul>
+        
+                  <div class="container border col">
+                      <p>Wow</p>
+                  </div>
+            </div>
+        </div>
+        <form>
+            <div class="row">
+            <label for="inputName" class="form-label col"> Name </label>
+                <input type="text" id="inputName" class="form-control col">
+            <label for="inputEmail" class="form-label col"> Email </label>
+                <input type="email" id="inputEmail" class="form-control col">
+            </div>
+            <div class="row">
+            <label for="inputPhone" class="form-label col"> Phone-number</label>
+                <input type="tel" id="inputPhone" class="form-control col" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div class="row">
+             <label for="inputMessage" class="form-label col"> Message</label>
+                <textarea name="inputMessage" id="inputMessage" cols="30" rows="10" class="form-control col"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="reset" class="btn btn-danger">Clear</button>
+        </form>
+   <footer class="footer mt-auto py-3 bg-light border">
+       <div class="container">&copy; <a href="#">Back</a></div></footer>
+       <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+       <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
