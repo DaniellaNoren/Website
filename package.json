@@ -1,5 +1,5 @@
 {
-    {
+    
     "_from": "jquery",
     "_id": "jquery@3.6.0",
     "_inBundle": false,
@@ -347,7 +347,6 @@
       "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\""
     },
     "style": "dist/css/bootstrap.css",
-    "version": "5.0.2"
-  }  
+    "version": "5.0.2"  
 }
   
