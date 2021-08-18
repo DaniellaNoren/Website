@@ -1,0 +1,48 @@
+article {
+    width: 20rem;
+    height: 20rem;
+}
+article img {
+    width: 70%;
+    height: 70%;
+}
+.carousel{
+    height: 34rem;
+}
+.carousel-inner{
+    height: 100%;
+}
+.caption-text{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 40rem;
+    margin: auto;
+}
+.carousel-item img{
+    width: 40rem;
+    height: 30rem;
+}
+.carousel-item img, form{
+    margin: auto;
+}
+.btn-group{
+    width: 60%;
+    margin: auto;
+}
+.icon{
+    height: 4em;
+    width: 4em;
+}
+form{
+    color: white;
+    margin-top: 1rem;
+    width: 60%;
+    height: 25rem;
+}
+.rounded-pill{
+    height: 3rem;
+}
+#bottomImgSpan{
+    max-width: none;
+}
+
+

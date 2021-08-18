@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+ 
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/bootswatch-quartz.css">
+    <title>Website</title>
+</head>
+<body>
+
+    <div class="navbar navbar-expand-lg border bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand text-primary" href="https://youtube.com">Website</a>
+            <img src="../../img/fireworks.png" class="icon img-fluid" 
+            alt="Black and white cat" >
+
+            <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-secondary" href="https://google.com">Google</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active text-secondary" href="https://github.com/daniellanoren">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-secondary" href="https://twitter.com">Twitter</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle text-success" href="#" 
+                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown Link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="https://wikipedia.org">Wikipedia</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://gp.se">GP</a>
+                        </li>
+                    </ul>
+                </li>
+             </ul>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-around mb-2 mt-3">
+        <article class="border rounded border-dark text-center bg-primary">
+            <h2>Lorem ipsum</h2>
+            <img src="../../img/dusan-veverkolog-yObnHvuwkiY-unsplash.jpg" alt="Capybara" class="mx-auto rounded d-block">
+            <p>Lorem ipsum</p>
+        </article>
+        <article class="border rounded border-dark text-center bg-primary">
+            <h2>Lorem ipsum</h2>
+            <img src="../../img/mana5280-mhXop68UAGk-unsplash.jpg" alt="Otter" class="mx-auto rounded d-block">
+            <p>Lorem ipsum</p>
+        </article>
+        <article class="border rounded border-dark text-center bg-primary">
+            <h2>Lorem ipsum</h2>
+            <img src="../../img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" alt="Cat" class="mx-auto rounded d-block">
+            <p>Lorem ipsum</p>
+        </article>
+    </div>
+
+    <div id="pictureCarousel" class="carousel slide container-fluid bg-dark mt-2" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#pictureCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item mt-2">
+                <img src="../../img/dusan-veverkolog-yObnHvuwkiY-unsplash.jpg" class="d-block img-fluid" alt="A bathing Capybara">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caption-text">Capybara</h5>
+                    <p class="caption-text">Photo by 
+                        <a class="text-success fw-bold" href="https://unsplash.com/@veverkolog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dušan veverkolog</a> on 
+                        <a class="text-success fw-bold" href="https://unsplash.com/s/photos/capybara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item mt-2">
+                <img src="../../img/mana5280-mhXop68UAGk-unsplash.jpg" class="d-block img-fluid" alt="Close-up of an otter">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caption-text">Otter</h5>
+                    <p class="caption-text">Photo by 
+                        <a class="text-success fw-bold" href="https://unsplash.com/@mana5280?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">mana5280</a> on 
+                        <a class="text-success fw-bold" href="https://unsplash.com/s/photos/otter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item mt-2 align-center">
+                <img src="../../img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg" class="d-block img-fluid" alt="Close-up of a black and white cat">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caption-text">Cat</h5>
+                    <p class="caption-text">Photo by 
+                        <a class="text-success fw-bold" href="https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Manja Vitolic</a> on 
+                        <a class="text-success fw-bold" href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item active">
+                  
+                <form>
+                    <h2 id="contactHeader" class="mb-1">Contact</h2>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text"> Name</span>
+                        <input type="text" id="inputName" class="form-control">
+                        <span class="input-group-text"> Email</span>
+                        <input type="email" id="inputEmail" class="form-control">
+                    </div>
+                    
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">Tel</span>
+                        <input type="tel" id="inputPhone" placeholder="XXXX-XX XX XX" class="form-control" pattern="[0-9]{4}-[0-9]{2} [0-9]{2} [0-9]{2}">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Message</span>
+                        <textarea name="inputMessage" id="inputMessage" cols="30" rows="8" class="form-control col"></textarea>
+                    </div>
+
+                    <div class="text-center mt-2">
+                        <div class="btn-group" role="group">
+                            <button type="submit" class="btn btn-success me-1">Submit</button>
+                            <button type="reset" class="btn btn-danger">Clear</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#pictureCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#pictureCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    <div class="container mb-3 mt-3">
+        <div class="row">
+            <ul class="nav p-4 me-2 rounded my-auto flex-column col bg-light">
+                <li class="nav-item">
+                    <a class="badge rounded-pill bg-primary w-100" href="https://en.wikipedia.org/wiki/CSS">
+                        <p class="mt-1 fs-4">CSS</p></a>
+                </li>
+                <li class="nav-item mt-2">
+                     <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" class="align-middle border border-dark badge rounded-pill bg-secondary w-100">
+                        <p class="mt-1 fs-4 text-dark">Bootstrap</p></a>
+                </li>
+                <li class="nav-item mt-2">
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" class="badge rounded-pill bg-success w-100">
+                        <p class="mt-1 fs-4">JS</p></a>
+                </li>
+                <li class="nav-item mt-2">
+                    <a href="https://en.wikipedia.org/wiki/HTML" class="badge rounded-pill bg-dark w-100">
+                        <p class="mt-1 fs-4">HTML</p></a>
+                </li>      
+            </ul>
+    
+            <div class="container bg-secondary rounded col p-3">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Curabitur augue erat, varius in risus eu, efficitur vestibulum mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                <p>Nulla dignissim pharetra eros, ullamcorper volutpat enim mollis at. Maecenas at pharetra sem, et mollis orci. Pellentesque convallis cursus dolor eget sagittis. Praesent vitae est ac justo scelerisque bibendum ac eget felis.</p> 
+                <p class="blockquote">"Proin erat neque, sodales ut erat at, bibendum mollis sem."</p>  
+                <p class="blockquote-footer">Lorem ipsum dolor sit amet</p>
+            </div>
+
+        </div>
+    </div>
+        
+    <div class="container w-100 row mx-auto mb-3">
+        <div class="col">
+            <p class="blockquote">"Proin erat neque, sodales ut erat at, bibendum mollis sem."</p>  
+            <p class="blockquote-footer">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="col row w-100" id="bottomImgSpan">
+            <img src="../../img/karl-anderson-7zg5bnhm2X0-unsplash.jpg" class="mx-auto d-block rounded" alt="A green jungle">
+            <span>Photo by <a href="https://unsplash.com/@karlkiwi90?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karl Anderson</a> on <a href="https://unsplash.com/s/photos/jungle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span> 
+        </div>
+        <div class="col text-end">
+            <p class="blockquote">"Proin erat neque, sodales ut erat at, bibendum mollis sem."</p>  
+            <p class="blockquote-footer">Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+
+   <footer class="footer mt-auto py-3 bg-dark border">
+       <div class="container text-center">
+           <span class="text-primary">&copy;</span> <a href="#" class="text-light">Back</a>
+           <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </div>
+    </footer>
+       
+    <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
